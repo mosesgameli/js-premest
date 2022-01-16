@@ -24,9 +24,9 @@
 - [x] continue
 
 ## Functions
-- [ ] regular functions
-- [ ] arrow functions
-- [ ] higher order functions
+- [x] regular functions
+- [x] arrow functions
+- [x] higher order functions
 
 ## Standard Libraries
 - [ ] Strings
