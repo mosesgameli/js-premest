@@ -9,10 +9,10 @@
 - [x] Null
 
 ## Operators
-- [ ] assignment 
-- [ ] urinary
-- [ ] logical
-- [ ] comparison
+- [x] assignment 
+- [x] urinary
+- [x] logical
+- [x] comparison
 
 ## Control Flow
 - [ ] if

@@ -1,23 +1,39 @@
-//ts-nocheck
-// data types
+// values
+let start = 18;
+let end = 120;
+let result;
+
 /**
- * number -> 12;
- * boolean -> true or false;
- * string -> "", "abc", 'aBc';
- * array -> ['christy', 'jane'];
- * object -> { color: red };
- * null
+ * urinary operators
+ * -> addition
+ * -> subtraction
+ * -> multiplecation
+ * -> division
+ * -> modulus
+ * -> increment
+ * -> decrement
  */
 
-// declare a variable
-var person;
-let age;
+/**
+ * assignment operators
+ * -> =
+ * -> += (and family)
+ */
 
-// initialize a variable
-const city = "Accra";
-let bioData = null;
-let canDance = true;
+let isAdult = false;
 
-// change a variable
-canDance = false;
-bioData = {};
+/**
+ * logical operators
+ * -> not
+ * -> and
+ * -> or
+ */
+
+/**
+ * comparison operators
+ * -> less than
+ * -> greater than
+ * -> equal
+ * -> exact
+ * -> not equal
+ */
