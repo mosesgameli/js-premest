@@ -62,6 +62,6 @@
 - [ ] keyboard events
 
 ## Promises
-- [ ] fetch api
-- [ ] async and await
-- [ ] try and catch
+- [x] fetch api
+- [x] async and await
+- [x] try and catch

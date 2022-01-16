@@ -1,49 +1,29 @@
-// values
-let sentence = "Occaecat commodo occaecat veniam anim officia velit.";
-let count = 1093;
-
 /**
- * working with strings
- * -> split
- * -> slice
- * -> toUpperCase
- * -> toLowerCase
+ * fetch api
+ * -> fetch signature
+ * -> promise
  */
 
-const months = ["Jan", "Feb", "Mar", "Apr"];
-/**
- * working with arrays
- * -> push
- * -> pop
- * -> shift
- * -> unshift
- * -> splice
- * -> concat
- */
+// async function loadPeople(url) {
+//   let result = await fetch(url);
+//   let data = await result.json();
 
-const person1 = {
-  name: "Terra",
-  age: 28,
-  canDrive: true
-};
+//   console.log(data);
+// }
 
-const person2 = {
-  name: "Yamah",
-  age: 32,
-  canDrive: false
-};
+async function loadPeople(url) {
+  let result;
 
-/**
- * working with object
- * -> add key
- * -> remove key
- * -> in
- * -> has property
- */
+  try {
+    let response = await fetch(url);
+    result = await response.json();
 
-/**
- * array and object operators
- * -> spread
- * -> rest
- * -> destructure
- */
+    console.log(result);
+  } catch (error) {
+    result = error.message;
+
+    console.log(result);
+  }
+}
+
+loadPeople("people.json");
