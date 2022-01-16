@@ -29,11 +29,11 @@
 - [x] higher order functions
 
 ## Standard Libraries
-- [ ] Strings
-- [ ] Array
-- [ ] Object
-- [ ] Dates
-- [ ] Math
+- [x] Strings
+- [x] Array
+- [x] Object
+- [x] Dates
+- [x] Math
 
 ## DOM API
 ### Selecting Elements
