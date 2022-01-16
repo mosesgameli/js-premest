@@ -15,13 +15,13 @@
 - [x] comparison
 
 ## Control Flow
-- [ ] if
-- [ ] if else
-- [ ] switch case
-- [ ] while
-- [ ] for
-- [ ] break
-- [ ] continue
+- [x] if
+- [x] if else
+- [x] switch case
+- [x] while
+- [x] for
+- [x] break
+- [x] continue
 
 ## Functions
 - [ ] regular functions

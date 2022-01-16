@@ -1,39 +1,22 @@
 // values
-let start = 18;
-let end = 120;
-let result;
+let isWeekend = false;
+const days = [
+  "Sunday",
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday"
+];
 
 /**
- * urinary operators
- * -> addition
- * -> subtraction
- * -> multiplecation
- * -> division
- * -> modulus
- * -> increment
- * -> decrement
- */
-
-/**
- * assignment operators
- * -> =
- * -> += (and family)
- */
-
-let isAdult = false;
-
-/**
- * logical operators
- * -> not
- * -> and
- * -> or
- */
-
-/**
- * comparison operators
- * -> less than
- * -> greater than
- * -> equal
- * -> exact
- * -> not equal
+ * control flow
+ * -> if
+ * -> if else
+ * -> for
+ * -> while
+ * -> switch
+ * -> break
+ * -> continue;
  */
